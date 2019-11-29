@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web Assignment 2</title>
+		<style> 
+            body{
+                margin-left: 22%;
+                padding-left:5%;
+                padding-bottom: 5%;
+                width:50%;
+                padding-top:3%;
+                height: 95%;
+            }
+        </style>
+	</head>
+	<body onload="fortune()">
+		<center><h2 style="color: orange">Fortune Telling</h2></center>
+		<center><p  id="fortune"></p></center>
+		
+		<center><h2 style="color:orange">Currency Converter</h2></center>
+		
+		<center><form>
+			<input type="text" name="amount1" />
+			<select id="currency">
+				<option value="tk">TK</option>
+				<option value="dollar">Dollar</option>
+				<option value="euro">Euro</option>
+				<option value="pound">Pound</option>
+			</select>
+			<br>
+			<input type="text" name="amount2" />
+			<select id="currency1">
+				<option value="tk">TK</option>
+				<option value="dollar">Dollar</option>
+				<option value="euro">Euro</option>
+				<option value="pound">Pound</option>
+			</select>
+			<br>
+			<input type="button" value="Convert" onclick="convert()" />
+			<br><br>
+			<b><p id="eq"></p></b> 
+			<p id="dollar"></p>
+			<p id="euro"></p>
+			<p id="pound"></p>
+		</form></center>
+		
+		<h2 style="color: orange">Quiz</h2>
+		<form action="/action_page.php">
+			<p>1.How do you Graduate your Engineering Degree ?</p>
+			  <input type="radio" name="1" value="a">A. Doing Nothing At all<br>
+			  <input type="radio" name="1" value="b">B. Like everyone Else<br>
+			  <input type="radio" name="1" value="c">C. Studying for real<br>  
+			<p id="ans1" style="color:red"></p>
+			<p>2.How hard it is to learn new stuffs ?</p>
+			  <input type="radio" name="2" value="a"> A. Piece of cake<br>
+			  <input type="radio" name="2" value="b"> B. Super Hard<br>
+			  <input type="radio" name="2" value="c"> C. Takes some Practice<br>  
+			  <p id="ans2" style="color:red"></p>
+			<p>3.Is Bigfoot Real ?</p>
+				 <input type="radio" name="3" value="a">A. Yes<br>
+				 <input type="radio" name="3" value="b">B. Nope<br>
+				 <input type="radio" name="3" value="c">C. Maybe<br>  
+				<p id="ans3" style="color:red"></p>
+			<p>4.What is the speed of light ?</p>
+				<input type="radio" name="4" value="a"> A. 3,00,000km/s<br>
+				<input type="radio" name="4" value="b"> B. 34,00,000km/h<br>
+				<input type="radio" name="4" value="c"> C. 4,00,000km/s<br>  
+				<p id="ans4" style="color:red"></p>
+			<p>5.Where was ebola first diagonised ?</p>
+				 <input type="radio" name="5" value="a">A. Africa<br>
+				 <input type="radio" name="5" value="b">B. Jigatola<br>
+				 <input type="radio" name="5" value="c">C. Canada<br>  
+				<p id="ans5" style="color:red"></p>
+			<h3 style="color:blue" id="result"></h3>
+			  <input type="button" value="Submit" onclick="quizQuestion()" />
+		</form>
+		
+		
+		<script src="Shamsjavascript.js" ></script>
+	</body>
+</html>
