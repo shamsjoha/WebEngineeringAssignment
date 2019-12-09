@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+#menu .container{
+    background:#316b89;
+}
+#menu .container ul{
+    text-align: center;
+}
+#menu .container ul li{
+    padding: 10px 0;
+    display: inline-block;
+    margin-right: 20px;
+}
+#menu .container ul li a{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: inherit;
+}
+
+#info .container{
+    padding: 50px 0;
+    background: #FFD54F ;
+}
+
+#info .container h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+#info .container img{
+    width: 200px;
+    height: 200px;
+    
+    display: block;
+    margin: 0 auto;
+    padding-left: 1%;
+}
+#info .container h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 50px;
+    font-style: italic;
+}
+#info .container p{
+    font-size: 22px;
+    color: #ffffff;
+    padding-top: 10px;
+    text-align: center;
+}
+#info .container a{
+    font-style: oblique;
+    color: #00ffeb;
+}
+
+#education .container{
+    padding: 50px 0;
+    background:#316b89;
+}
+
+#education .container h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#education .container table{
+    margin: 0 auto;
+    
+}
+
+#education .container table, th, td{
+    border: 1px solid #aaaaaa;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#hobby .container{
+    padding: 50px 0;
+    background: #78909C;
+}
+#hobby .container h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#hobby .container ul{
+    list-style: square;
+    list-style-position: inside;
+    padding-left: 200px;
+}
+#hobby .container li{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: left;
+    color: #ffffff;
+}
+#hobby .container ul li ol{
+    list-style: decimal;
+    list-style-position: inside;
+    margin-left: 50px;
+}
+
+
+
+
+#link .container{
+    padding: 50px 0;
+    background-image: linear-gradient(to right,#1D4350,#A43931); 
+}
+#link .container h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#link .container p{
+    text-align: left;
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: left;
+    color: #ffffff;
+    padding: 0px 100px 0px 200px;
+}
+
+#link .container a{
+    color: #ff8080;
+}
+
+#link .container ul{
+    list-style: square;
+    list-style-position: inside;
+    padding-left: 400px;
+}
+
+
+
