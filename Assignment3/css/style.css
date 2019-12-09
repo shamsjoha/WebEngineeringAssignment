@@ -1,0 +1,75 @@
+/*****************
+common css starts
+*****************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*****************
+common css ends
+*****************/
+
+/****************
+menu starts
+****************/
+#menu {
+    background: #ffaf42;
+    padding: 10px;
+}
+
+#menu nav a {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+    transition: .4s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu nav a:hover {
+    color: #000000;
+}
+
+#menu .navbar {
+    padding: 0px;
+}
+
+#menu .logo {
+    margin-left: 0px;
+}
+#manu nav .admin{
+    font-size: 22px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    background: blue;
+    transition: .4s;
+    text-decoration: none;
+}
+
+/****************
+menu ends
+****************/
+
+#dis{
+    background: url(../images/student.jpg)no-repeat center;
+    background-size: cover;
+    padding: 250px;
+}
+
